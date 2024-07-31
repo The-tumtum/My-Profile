@@ -8,7 +8,7 @@ function widthResizer(){
     document.documentElement.style.setProperty('--fr',(width/20)+'px');
     document.documentElement.style.setProperty('--gradiant-value',(Math.log10(width/250)))
     document.documentElement.style.setProperty('--images-width', (width/3) + 'px')
-    document.documentElement.style.setProperty('--image2-width', (width/4) + 'px')
+    // document.documentElement.style.setProperty('--image2-width', (width/4) + 'px')
     console.log(width);
 }
 

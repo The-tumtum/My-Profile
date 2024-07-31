@@ -12,7 +12,7 @@ html{
   --gradiant-value:0.5;
   --images-width: 200px;
   --image1-width: var(--images-width);
-  --image2-width: 15rem;
+  --image2-width: var(--images-width);
 }
 
 body {
